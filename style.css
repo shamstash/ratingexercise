@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html {
+    background: hsl(216, 12%, 8%);
+    box-sizing: border-box;
+    height: 100%;
+    margin: auto;
+    display: flex;
+
+}
+
+html * {
+    font-family: overpass, sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+
+.main {
+    display: flex;
+    width: 375px;
+    background: hsl(215, 21%, 16%);
+    border-radius: 30px;
+
+}
+
+.content {
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.starDiv {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    background: hsl(213, 19%, 20%);
+    border-radius: 100%;
+}
+
+img {
+    display: flex;
+    margin: auto;
+
+}
+
+h2 {
+    color: white
+}
+
+#ratingpara {
+    color: hsl(217, 12%, 63%);
+    margin-top: -10px;
+    font-size: 14px;
+}
+
+#ratings {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+    color: hsl(217, 12%, 63%);
+
+}
+
+.rateBtn {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: hsl(213, 19%, 20%);
+    border-radius: 100%;
+    color: hsl(217, 12%, 63%);
+    border: none;
+    cursor: pointer;
+}
+
+.rateBtn:hover {
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.clicked {
+    background: hsl(217, 12%, 63%);
+    color: white;
+}
+
+#submitBtn {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background: white;
+    color: hsl(25, 97%, 53%);
+}
+
+#ratingTxt {
+    background: hsl(213, 19%, 20%);
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+}
+
+#thanksh2 {
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#thankspara {
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    font-size: 14px;
+}
+
+#backButton {
+    display: flex;
+    background: hsl(213, 19%, 20%);
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#backButton i {
+    margin: auto;
+
+}
+
+#backButton:hover{
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+

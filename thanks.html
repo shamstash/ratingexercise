@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/cab7da4270.js" crossorigin="anonymous"></script>
+    <title>Thanks for rating</title>
+</head>
+<body>
+<div class="main">
+
+    <div class="content">
+<div id="backButton" onclick="location.href='index.html'">
+         <i  class="fa-solid fa-arrow-left"></i></div>
+        <img src="imgs/illustration-thank-you.svg">
+        <p id="ratingTxt"></p>
+        <h2 id="thanksh2">Thank You!</h2>
+        <p id="thankspara">We appreciate you taking the time to give a rating. If you ever need more support, don't
+            hesitate to get in touch!</p>
+    </div>
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    document.getElementById("ratingTxt").innerHTML = localStorage.getItem("getvalue")
+</script>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Interactive rating component</title>
+</head>
+<body>
+<div class="main">
+    <div class="content">
+    <div class="starDiv">
+<img src="imgs/icon-star.svg"/>
+    </div>
+<h2>How did we do?</h2>
+    <p id="ratingpara">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+    <form id="ratings" method="get">
+
+        <input name="rate1" type="button" value="1" class=" rateBtn" id="rate1"/>
+        <input name="rate2" type="button" value="2" class=" rateBtn" id="rate2"/>
+        <input name="rate3" type="button" value="3" class=" rateBtn" id="rate3"/>
+        <input name="rate4" type="button" value="4" class=" rateBtn" id="rate4"/>
+        <input name="rate5" type="button" value="5" class=" rateBtn" id="rate5"/>
+
+
+    </form>
+    <input type="button" value="SUBMIT" id="submitBtn" onclick="location.href='thanks.html'">
+
+</div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+
+</html>
